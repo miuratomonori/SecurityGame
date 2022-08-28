@@ -20,7 +20,7 @@
 			<p><a href="ctf.html">タイトルに戻る</a></p>
 		</div>
 	
-		<div id="left">
+	/*	<div id="left">
 			<?php
 				try{
 
@@ -49,7 +49,7 @@
 				}
  		
 			?>
-		</div>
+		</div>  */
 	</div>
 </body>
 </html>
