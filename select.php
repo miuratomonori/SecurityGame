@@ -7,7 +7,7 @@
 </head>
 <body>
 	<div id="contents">
-		<div　class="select">
+		<div class="select">
 			<h1>問題選択</h1>
 			<p id="questions"><a href="tutorial.html">チュートリアル</a><br>
 			<a href="question.html">問題1</a><br>
