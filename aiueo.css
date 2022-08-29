@@ -92,10 +92,6 @@ body {
 	margin: 17px 0px 10px 150px;
 	font-size: 50px; 
 }
-header h2 {
-	padding: 130px 0px 0px 200px;
-	font-size: 20px
-}
 .quiz h3 {
 	padding: 0px 0px 10px 200px;
 	font-size: 20px
@@ -107,4 +103,9 @@ header h2 {
 .result{
 	text-align:center;
 	font-size:80px;
+}
+.tutorial{
+	width:700px;
+	margin:0 auto 0 auto;
+	font-size:20px;
 }
