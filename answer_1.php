@@ -22,9 +22,9 @@
     		function HeaderClick() {
       		target = document.getElementById("ContentsPanel");
       			if (target.style.display == "none") {
-        			target.style.display = "block";
-      			} else {
         			target.style.display = "none";
+      			} else {
+        			target.style.display = "block";
       			}
    		 }
   	</script>
