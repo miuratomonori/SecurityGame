@@ -1,1 +1,1 @@
-<?php include_once("ctf.html"); ?>
+<?php include_once("index.html"); ?>
