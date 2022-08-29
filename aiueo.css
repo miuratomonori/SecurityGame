@@ -85,9 +85,9 @@ body {
 	font-size: xx-large;
 	background-color: red;
 }
-#select{
+.select{
 	text-align:center;
 }
-#select h1{
+.select h1{
 	font-size:120%;
 }
