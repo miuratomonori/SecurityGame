@@ -1,23 +1,8 @@
 <?php
 
         $ancer=$_POST['ancer'];
-        $id=$_COOKIE["id"];
-
         if(strcmp($ancer,"tokatigawa")==0){
-                $dsn='mysql:dbname=scoresever;host=localhost';
-                $user='ncc_ctf';
-                $password='password';
-                $dbh=new PDO($dsn,$user,$password);
-
-                $sql = 'update point set point = point + 1 where user_id = ?';
-                $stmt=$dbh->prepare($sql);
-                $flag=$stmt->execute(array($id));
-
-                if($flag){
-                        $put = "正解";
-                }else{
-                        $put = 'error';
-                }
+		$put = "正解";
         }else{
                 $put = "不正解!";
         }
