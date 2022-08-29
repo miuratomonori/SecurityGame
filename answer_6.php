@@ -33,7 +33,7 @@
 
 	
 	<p id="ContentsHeader" onclick="HeaderClick();">解説</p>
-	<div id="ContentsPanel">解説文</div>
+	<div id="ContentsPanel">シーザー暗号は指定数文字を動かす暗号です。今回は10文字動かせば、答えが出てきます。</div>
 	<p><a href="select.php">問題画面に戻る</a></p>
 
 </body>
