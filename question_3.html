@@ -1,4 +1,4 @@
-﻿<!doctype html>
+﻿<!doctype html>	
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
@@ -8,18 +8,26 @@
 
 <body>
 <header>
-	<div>
-		<h1>次のファイル形式を調べろ</h1>
-		<h3>Stiirling.exeを使い、調べてファイルの拡張子を変えてみよう
+	<div id="quiz">
+		<div class="quiz">
+			<h1 style="padding: 14px 0px 50px 150px;"><span style="font-size:1.6em;">次のファイル形式を調べろ</h1>
+			<h3 style="padding-left: 200px;"><span style="font-size:1.1em;">Stiirling.exeを使い、ファイルを調べて拡張子を変えてみよう
 			<br>ヒント：50 4B 03 04 14 00 06 00
 		</h3>
-		<h3><a href="images/open.txt" download>問題ファイルはここから</a></h3>
-	</div>
-	<form action="answer_3.php" method="post">
-		<div>
-			<label for="ancer">回答欄</label>
-			<input type="text" required="required" id="ancer" name="ancer" pattern="^[0-9A-Za-z]+$">*半角英数字
+		<h3 style="padding-left: 200px;"><a href="images/open.txt" download>問題ファイルはここから</a></h3>
 		</div>
-		<input type="submit" value="送信">
-	</form>
+		<div class="form">
+			<form action="answer_3.php" method="post" style="padding-left: 250px;">
+				<label for="ancer"><font size="5px">回答欄<br></label>
+				<p><input type="text" required="required" id="ancer" name="ancer" pattern="^[0-9A-Za-z]+$">*半角英数字</p>
+				<input type="submit" value="送信">
+			</form>
+		</div>
+	</div>
+	<div id="right">
+		<p id="ContentsHeader" onclick="TipsClick();">拡張子とは？</p>
+	        <div id="TipsPanel">拡張子とは、ファイルがなんのファイルなのかを表しています(例)画像なら、jpg,png,gitなど</div>
+		<p id="ContentsHeader" onclick="TipsClick();">ヒント</p>
+	        <div id="TipsPanel">拡張子はファイルの名前変更から変更可能です。ファイルを右クリックして名前変更を使いましょう</div>
+	</div>
 </html>
