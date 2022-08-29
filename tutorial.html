@@ -6,6 +6,17 @@
 <link rel="stylesheet" href="aiueo.css">
 </head>
 
+<script type="text/ecmascript">
+                function TipsClick() {
+                target = document.getElementById("TipsPanel");
+                        if (target.style.display == "none") {
+                                target.style.display = "block";
+                        } else {
+                                target.style.display = "none";
+                        }
+                 }
+</script>
+
 <body>
 	<div class="tutorial">
 		<div class="quiz">
@@ -17,11 +28,15 @@
 			<!-- <h3><a href=" url記載" download>問題ファイルはここから</a></h3> -->
 		</div>
 		<div class="form">
-			<form action="hantei.php" method="post">
+			<form action="answer.php" method="post">
 				<label for="ancer">回答欄</label>
 				<p><input type="text" required="required" id="ancer" name="ancer" pattern="^[0-9A-Za-z]+$">*半角英数字</p>
 				<input type="submit" value="送信">
 			</form>
 		</div>
+	</div>
+	<div id="right">
+		<p id="ContentsHeader" onclick="TipsClick();">ヒント</p>
+	        <div id="TipsPanel">ヒントはここに表示されます</div>
 	</div>
 </html>
