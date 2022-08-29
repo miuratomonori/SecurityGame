@@ -65,6 +65,9 @@ body {
 .form{
 	width:500px;
 	margin: 0 40px 0 auto;
+	position: relative-h3;
+	padding: 0px 0px 0px 250px;
+	font-size: 30px;
 }
 #right{
 	width:300px;
@@ -84,7 +87,7 @@ body {
 	font-size: xx-large;
 	background-color: red;
 }
-header h1 {
+.quiz h1 {
 	position: absolute;
 	margin: 17px 0px 10px 150px;
 	font-size: 50px; 
@@ -94,13 +97,8 @@ header h2 {
 	padding: 130px 0px 0px 200px;
 	font-size: 20px
 }
-header h3 {
+.quiz h3 {
 	position: relative-h2;
 	padding: 0px 0px 10px 200px;
 	font-size: 20px
-}
-header form {
-	position: relative-h3;
-	padding: 0px 0px 0px 250px;
-	font-size: 30px;
 }
