@@ -12,7 +12,7 @@
 			<p id="questions"><a href="tutorial.html">チュートリアル</a><br>
 			<a href="question.html">問題1</a><br>
 			<a href="question_2.html">問題2</a><br>
-			<a href="question_3.html">問題3</a><br>
+	<!--		<a href="question_3.html">問題3</a><br>	-->
 			<a href="question_4.html">問題3</a><br>
 			<a href="question_5.html">問題4</a><br>
 			<a href="question_6.html">問題5</a><p>
