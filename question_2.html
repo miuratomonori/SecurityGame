@@ -20,17 +20,18 @@
 <body>
 	<div id="quiz">
 		<div class="quiz">
-			<h1>次写真の川の名前を調べよ</h1>
+			<h1>写真の川の名前を調べよ</h1>
 			<h3>問題の写真をダウンロードし、川の名前を調べよ</h3>
 			<h3><a href="images/kawa.png" download>問題ファイルはここから</a></h3>
 		</div>
 		<div class="form">
-			<form action="answer_2.php" method="post" style="padding-left: 250px;">
+			<form action="answer_2.php" method="post">
 				<label for="ancer">解答欄<br></label>
 				<p><input type="text" required="required" id="ancer" name="ancer" pattern="^[0-9A-Za-z]+$">*半角英数字</p>
 				<input type="submit" value="送信">
 			</form>
 		</div>
+	</div>
 	<div id="right">
 		<p id="ContentsHeader" onclick="TipsClick();">ヒント</p>
 	        <div id="TipsPanel">googleには画像検索機能があります。画像検索と検索してみましょう</div>
