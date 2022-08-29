@@ -17,7 +17,7 @@
 			<a href="question_5.html">問題4</a><br>
 			<a href="question_6.html">問題5</a><p>
 
-			<p><a href="ctf.html">タイトルに戻る</a></p>
+			<p><a href="index.html">タイトルに戻る</a></p>
 		</div>
 	
 	<!--	<div id="left">
