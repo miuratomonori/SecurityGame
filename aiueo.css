@@ -102,3 +102,7 @@ header h2 {
 	padding: 0px 0px 10px 200px;
 	font-size: 20px
 }
+.select{
+	font-size:120%;
+	text-align:center;
+}
