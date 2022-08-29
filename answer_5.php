@@ -33,7 +33,7 @@
 
 	
 	<p id="ContentsHeader" onclick="HeaderClick();">解説</p>
-	<div id="ContentsPanel">解説文</div>
+	<div id="ContentsPanel">モールス信号変換などで検索して出てきたサイトで変換しましょう</div>
 	<p><a href="select.php">問題画面に戻る</a></p>
 
 </body>
