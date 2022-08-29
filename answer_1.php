@@ -34,7 +34,7 @@
 
 	
 	<p id="ContentsHeader" onclick="HeaderClick();">解説</p>
-	<div id="ContentsPanel">問題文のハッシュ値をそのまま検索します。<br>出てきたサイトで元に戻した文が答えになります。</div>
+	<div id="ContentsPanel">ハッシュ関数は暗号化すると元の値に戻せないという点からパスワードなどの暗号化に使われています。</div>
 	<p><a href="select.php">問題画面に戻る</a></p>
 
 </body>
