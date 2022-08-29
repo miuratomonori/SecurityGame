@@ -10,7 +10,7 @@
 		<div id="main">
 			<h1>問題選択</h1>
 			<p id="questions"><a href="tutorial.html">チュートリアル</a><br>
-			<a href="question_1.html">問題1</a><br>
+			<a href="question.html">問題1</a><br>
 			<a href="question_2.html">問題2</a><br>
 	<!--		<a href="question_3.html">問題3</a><br> -->
 			<a href="question_4.html">問題3</a><br>
