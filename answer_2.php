@@ -1,7 +1,7 @@
 <?php
 
         $ancer=$_POST['ancer'];
-        if(strcmp($ancer,"tokatigawa")==0){
+        if(strcmp($ancer,"")==0){
 		$put = "正解";
         }else{
                 $put = "不正解!";
