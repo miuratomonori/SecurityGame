@@ -32,7 +32,7 @@
 
 	
 	<p id="ContentsHeader" onclick="HeaderClick();">解説</p>
-	<div id="ContentsPanel">googleの画像検索機能で、画像で検索すると川の名前が出てきます。</div>
+	<div id="ContentsPanel">googleの画像検索機能で、画像で検索すると城の名前が出てきます。</div>
 	<p><a href="select.php">問題画面に戻る</a></p>
 
 </body>
