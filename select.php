@@ -20,7 +20,7 @@
 			<p><a href="index.html">タイトルに戻る</a></p>
 		</div>
 	
-	<!--	<div id="left">
+		<div id="left">
 			<?php
 				try{
 
