@@ -1,6 +1,7 @@
 <?php
 
         $ancer=$_POST['ancer'];
+		$id=$_COOKIE["id"];
 
         if(strcmp($ancer,"tihorikutu")==0){
                 $put = "正解";
