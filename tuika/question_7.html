@@ -1,0 +1,40 @@
+﻿<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>Security Game</title>
+<link rel="stylesheet" href="aiueo.css">
+</head>
+
+<script type="text/ecmascript">
+                function TipsClick() {
+                target = document.getElementById("TipsPanel");
+                        if (target.style.display == "none") {
+                                target.style.display = "block";
+                        } else {
+                                target.style.display = "none";
+                        }
+                 }
+</script>
+
+<body>
+	<div id="quiz">
+		<div class="quiz">
+			<h1>ページの中に隠された文字を探し出せ</h1>
+			<h3>次のページの中に文字が隠されている。Googlechromeの開発者ツールを利用して文字を見つけ出せ</h3>
+			<h3><a href="images/where.html" target="_blank" rel="noopener noreferrer">ページはこちら</a></h3>
+		</div>
+		<div class="form">
+			<form action="answer_2.php" method="post">
+				<label for="ancer">解答欄<br></label>
+				<p><input type="text" required="required" id="ancer" name="ancer" pattern="^[0-9A-Za-z]+$">*半角英数字</p>
+				<input type="submit" value="送信">
+			</form>
+		</div>
+	</div>
+	<div id="right">
+		<p id="ContentsHeader" onclick="TipsClick();">ヒント</p>
+	        <div id="TipsPanel">ページで右クリックすると出てくるメニューの中にある、ソースの表示をクリックするとページのプログラムが表示されます</div>
+	</div>
+</body>
+</html>
